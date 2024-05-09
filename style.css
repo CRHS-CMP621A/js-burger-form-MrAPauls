@@ -2,3 +2,39 @@ html {
   height: 100%;
   width: 100%;
 }
+body {
+  font: 14px arial;
+  text-align: center;
+}
+.wrapper {
+  margin: 0 auto; /* center it all on the page*/
+  width: 440px; /* set width of order form */
+  border: 5px solid darkred;
+  background-color: goldenrod;
+}
+.heading {
+  font: 20px arial;
+  font-weight: bold;
+  margin-bottom: 5px;
+  margin-top: 25px;
+  color: darkred;
+}
+.sub-heading {
+  font: 16px arial;
+  font-weight: bold;
+  margin-bottom: 5px;
+  color: darkred;
+}
+.field {
+  margin-bottom: 5px;
+  text-align: right;
+}
+.container {
+  padding-left: 10px;
+  padding-right: 10px;
+  display: flex;
+  justify-content: space-between;
+}
+.message {
+  margin-bottom: 10px;
+}

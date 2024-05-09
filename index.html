@@ -1,16 +1,53 @@
 <!DOCTYPE html>
 <html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
+    <title>JS Burger Form</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+  </head>
 
-<head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width">
-  <title>replit</title>
-  <link href="style.css" rel="stylesheet" type="text/css" />
-</head>
+  <body>
+    <div class="wrapper">
+      <h1 class="heading">Rural Raider Burger Love</h1>
+      <h2 class="sub-heading">Burgers $5 | Fries $2 | Drinks $1</h2>
 
-<body>
-  Hello world
-  <script src="script.js"></script>
-</body>
+      <div class="container">
+        <img class="left" src="burgers.gif" alt="Burger Image" width="120px" />
+        <form class="right orderform" name="orderform" width="320px">
+          <div class="field">
+            Name: <input type="text" class="name" name="" value="" />
+          </div>
+          <div class="field">
+            # of Burgers:<input type="text" class="burger" name="" value="0" />
+          </div>
+          <div class="field">
+            # of Fries:<input type="text" class="fries" name="" value="0" />
+          </div>
+          <div class="field">
+            # of Drinks:<input type="text" class="drinks" name="" value="0" />
+          </div>
+          <div class="field">
+            Subtotal:<input type="text" class="subtotal" name="" value="" />
+          </div>
+          <div class="field">
+            Tax:<input type="text" class="tax" name="" value="" />
+          </div>
+          <div class="field">
+            Total:<input type="text" class="total" name="" value="" />
+          </div>
+          <div class="field">
+            <button class="button" type="button">Order Total</button>
+          </div>
+          <div class="field">
+            <button class="button" type="reset">Reset</button>
+          </div>
+        </form>
+      </div>
+      <div class="message">Please make your order!</div>
+    </div>
+    <!-- end of wrapper -->
 
+    <script src="script.js"></script>
+  </body>
 </html>
